@@ -50,7 +50,7 @@ This project walks through a complete, end-to-end NLP pipeline for sentiment cla
 | **Train/Test Split** | 80% training / 20% testing (stratified, `random_state=42`) |
 | **Language / Environment** | Python (Jupyter Notebook) |
 
-## 🛠 Tech Stack
+## 🛠 Technology Stack
 
 | Library | Purpose |
 |---------|---------|
