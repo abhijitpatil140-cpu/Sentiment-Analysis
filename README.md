@@ -78,7 +78,7 @@ This project walks through a complete, end-to-end NLP pipeline for sentiment cla
 | = 3 | Neutral |
 | < 3 | Negative |
 
-> The thresholds can be adjusted to suit your dataset's rating distribution.
+
 
 ## 🔄 Project Workflow
 
@@ -178,11 +178,9 @@ print(confusion_matrix(y_test, y_pred))
 
 ### Results
 
-> Replace the values below with the output from your notebook.
-
 | Metric | Value |
 |--------|-------|
-| Accuracy | `XX.XX%` |
+| Accuracy | `84.22%` |
 
 <!-- Optional: add a screenshot of your confusion matrix -->
 <!-- ![Confusion Matrix](images/confusion_matrix.png) -->
@@ -204,14 +202,10 @@ Predicted: positive
 ## 📁 Project Structure
 
 ```
-├── Sentiment_Analysis.ipynb                # Main Jupyter Notebook
-├── Movies_Reviews_modified_version1.csv    # Dataset
-├── Sentiment_Analysis_ML_Report.pdf        # Detailed project report
-├── requirements.txt                        # Python dependencies
+├── Sentiment_Analysis.ipynb                # Main Jupyter Notebook             
 └── README.md                               # Project documentation
 ```
 
-> Adjust file names to match your repository.
 
 ## 🔭 Future Improvements
 
